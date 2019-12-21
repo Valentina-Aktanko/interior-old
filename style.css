@@ -1,0 +1,84 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #6c6c6c;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 1366px;;
+    margin: 0 auto;    
+}
+
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.page-header__logo {
+    float: left;
+    margin-top: 24px;
+    margin-bottom: 15px;
+}
+
+.page-header__logo-img {
+    width: 185px;
+    height: 22px;
+}
+
+.page-header__menu {
+    float: right;
+    margin: 0;
+    margin-top: 7px;
+    padding: 0;
+    list-style-type: none
+}
+
+.page-header__menu-item {
+    float: left;
+}
+
+.page-header__menu-link {
+    display: inline-block;
+    padding: 20px 13px;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #8c8c8c;
+}
+
+.page-header__menu-link:hover {
+    color: #212121;
+}
+
+.page-header__menu-link_current {
+    font-weight: 700;
+    color: #212121;
+    border-bottom: 3px solid #212121;
+}
+
+.page-header__menu-link_search {
+    padding: 14px 8px;
+}
+
+.slider {
+    position: relative;
+}
+
+.slider__page-header {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 1170px;
+    background-color: transparent;
+}
